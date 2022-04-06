@@ -1,0 +1,6 @@
+print("Here is a Mad Libs program.")
+adjective = input("Enter a adjective:")
+noun1 = input("Enter a noun:")
+pastTenseVerb = input("Enter a past-tense verb:")
+noun2 = input("Enter another noun:")
+print("The quick", adjective, noun1, pastTenseVerb, "over the lazy", noun2,".")
