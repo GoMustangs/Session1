@@ -1,7 +1,7 @@
-game1 = 13
-game2 = 18
-game3 = 21
-game4 = 17
-game5 = 31
-average = ((13+18+21+17+31)/5)
-print(average)
+game1 = int(input("How many points were scored in the first game?"))
+game2 = int(input("How many points were scored in the second game?"))
+game3 = int(input("How many points were scored in the third game?"))
+game4 = int(input("How many points were scored in the fourth game?"))
+game5 = int(input("How many points were scored in the fifth game?"))
+average = ((game1+game2+game3+game4+game5)/5)
+print("Here is the average number of points scored per game ",average)

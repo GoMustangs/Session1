@@ -1,0 +1,7 @@
+print("This is a Mario Kart times average calculator. Input your times from four courses to figure out your average time.")
+time1 = int(input("How many minutes did it take to complete the first course?"))
+time2 = int(input("How many minutes did it take to complete the second course?"))
+time3 = int(input("How many minutes did it take to complete the third course?"))
+time4 = int(input("How many minutes did it take to complete the fourth course?"))
+averageTime = int((time1+time2+time3+time4)/4)
+print("Here is your average time:", averageTime)

@@ -1,6 +1,11 @@
-bill = 47.56
-tip = bill*.10
-total = bill + tip
-print("bill",bill)
-print("tip",tip)
-print("total",total)
+billAmount = input("Enter Bill")
+bill = int(billAmount)
+print("Your bill is",bill)
+print("If you tip 10% your total will be", bill + bill*.10)
+print("If you tip 15% your total will be", bill + bill*.15)
+print("If you tip 20% your total will be", bill + bill*.20)
+print("If you tip 25% your total will be", bill + bill*.25)
+tipAmount = input("Enter how much you want to tip in decimal form")
+tip = float(tipAmount)
+print("You are tipping this much money",bill*tip)
+print("Your total is", bill + bill*tip)
